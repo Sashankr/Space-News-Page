@@ -20,6 +20,12 @@
   box-shadow: 0 0 10px #ddd;
   padding: 1rem;
   border-radius: 10px;
+  transition: 0.4s ease;
+}
+
+.news-container div:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(148, 148, 148);
 }
 
 .news-container h3{
