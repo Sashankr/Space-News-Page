@@ -23,8 +23,11 @@ function App() {
       <div className='news-container'>
         {articles.map((article,index)=>{
           return (
-          <div key={index}>
-            {article.title}
+          <div onClick={() => {window.open(article.url)}} key={index}>
+            <h3>{article.title}</h3>
+            <img src={article.imageUrl} alt={article.title} />
+            <p>{article.summary}</p>
+            <small>{article.publishedAt}</small>
           </div>
           )
         })}
