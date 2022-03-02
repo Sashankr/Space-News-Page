@@ -48,3 +48,15 @@
 .news-container small{
   font-weight: 700;
 }
+
+@media(max-width:1200px){
+  .news-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media(max-width:900px){
+  .news-container{
+    grid-template-columns: 1fr;
+  }
+}
