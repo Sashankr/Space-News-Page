@@ -3,7 +3,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Space News</h1>
+      <div className='title'>
+        <h1>Space News</h1>
+      </div>
+      <div className='news-container'>
+        
+      </div>
     </div>
   );
 }
