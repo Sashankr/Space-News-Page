@@ -1,6 +1,6 @@
 # Space News API Website
 
-I built this with application [Space News API](https://www.spaceflightnewsapi.net/)
+I built this with [Space News API](https://www.spaceflightnewsapi.net/)
 
 #### I learnt about the following in the project : 
 
